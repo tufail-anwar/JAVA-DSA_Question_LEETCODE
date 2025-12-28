@@ -5,7 +5,6 @@ class Solution {
     }
     public int queen(boolean[][] board,int r){
         if(r==board.length){
-            // display(board);
             return 1;
         }
       int count=0;
@@ -37,17 +36,5 @@ class Solution {
         }
         return true;
     }
-    // public int display(boolean[][] board){
-        
-    //     for(boolean[] r:board){
-          
-    //         for (boolean cell : r) {
-    //             if (cell) ret;
-    //             else sb.append('.');
-    //         }
-    //         list.add(sb.toString());
-    //     }
-    //     return list;
-        
-    // }
+   
 }
